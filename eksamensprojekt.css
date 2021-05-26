@@ -1,0 +1,464 @@
+
+body {
+  background-color: #5CB71D;
+  margin: 0;
+}
+
+
+.container {
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 4%;
+  height: 100%;
+
+}
+
+.logo img{
+  width: 10%;
+  height: 10%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.betjeningsvejledningmenu img{
+  width: 10%;
+  height: 10%;
+  border-radius: 25px;
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.temperatur img{
+  border-radius: 20px;
+}
+
+.kipgryde img{
+  border-radius: 20px;
+}
+
+h1{
+  color: #2B2B2B;
+  font-size: 400%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  color: #2B2B2B;
+}
+
+h3{
+  color: #5CB71D;
+  font-size: 180%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+}
+
+h4{
+  color: #346513;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 170%;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  color: #55595c;
+}
+
+.header{
+  text-align: center;
+}
+
+.overskrift2 {
+  font-size: 250%;
+}
+
+.overskrift1 {
+  font-size: 100%;
+}
+
+.kasse{
+  background-color: #313331;
+  margin-top: 5%;
+  flex-direction: row;
+  display: flex;
+}
+
+.betjeningsvejledningmenu{
+  background-color: white;
+  border-radius: 25px;
+  width: 30%;
+  height: 200px;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+  position: relative;
+  text-align: center;
+  object-fit: cover;
+  opacity: 0.5;
+  overflow: hidden;
+}
+
+.temperaturmenu{
+  background-color: white;
+  border-radius: 25px;
+  width: 30%;
+  height: 200px;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+  position: relative;
+  text-align: center;
+  object-fit: cover;
+  opacity: 0.5;
+  overflow: hidden;
+}
+
+.ekstraudstyrmenu{
+  background-color: white;
+  border-radius: 25px;
+  width: 30%;
+  height: 200px;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+  position: relative;
+  text-align: center;
+  object-fit: cover;
+  opacity: 0.5;
+  overflow: hidden;
+}
+
+.betjeningsvejledning{
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-style: solid;
+  border-width: 4px 0px 0px 0px;
+  border-color: #F2F5F4;
+}
+
+.temperatur{
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-style: solid;
+  border-width: 4px 0px 0px 0px;
+  border-color: #F2F5F4;
+}
+
+.ekstraudstyr{
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-style: solid;
+  border-width: 4px 0px 0px 0px;
+  border-color: #F2F5F4;
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #346513; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #313331;
+}
+
+.kolonne{
+  display: flex;
+  flex: 1, 2;
+  margin-bottom: 5%;
+  background-color: #F2F5F4;
+  border-radius: 10px;
+  padding-right: 3%;
+  padding-top: 3%;
+  width: 100%;
+}
+
+.kolonne1{
+  margin-bottom: 5%;
+  background-color: #F2F5F4;
+  border-radius: 10px;
+  padding: 5%;
+  flex: 100%;
+  max-width: 100%;
+}
+
+.kolonne2{
+  display: flex;
+  flex: 1, 2;
+  margin-bottom: 5%;
+
+}
+
+.kolonne3{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5%;
+  background-color: #F2F5F4;
+  border-radius: 10px;
+
+}
+
+.venstre {
+  width: 30%;
+  justify-content: center;
+}
+
+.højre {
+  width: 70%;
+  height: 50%;
+  display: inline;
+}
+
+.højre1 {
+  width: 30%;
+  justify-content: center;
+}
+
+.venstre1 {
+  width: 70%;
+}
+
+
+.venstre2 {
+  width: 40%;
+  justify-content: center;
+}
+
+.højre2 {
+  display: inline;
+  margin-left: 5%;
+}
+
+
+.footerbaggrund {
+  background-image: url("footer.svg");
+  background-position: center;
+  background-size: contain;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex-direction: row;
+  display: flex;
+
+}
+
+.kontaktoglinks {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.kontakt {
+  width: 100%;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+
+}
+
+.links {
+  width: 100%;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+
+}
+
+@media screen and (max-width: 1300px) {
+  .betjeningsvejledningmenu {
+    font-size: 80%;
+  }
+
+  .temperaturmenu {
+    font-size: 80%;
+  }
+
+  .ekstraudstyrmenu {
+    font-size: 80%;
+  }
+
+  .kolonne2 {
+    display: block;
+    margin-bottom: 10%;
+  }
+
+  .kolonne2venstre2 {
+    width: 50%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .kolonne2højre2 {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .venstre2 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .højre2 {
+    margin-left: inherit;
+  }
+
+  .temperatur img {
+    width: 100%;
+  }
+
+  .overskrift1 {
+    font-size: 90%
+  }
+
+  .kolonne {
+    padding: 5%;
+    width: inherit;
+  }
+
+  .kolonne.venstre {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .kolonne.højre {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .kontaktoglinks {
+    display: block;
+  }
+
+}
+
+
+@media screen and (max-width: 989px) {
+
+  .overskrift2 {
+    font-size: 180%;
+  }
+
+  .overskrift1 {
+    font-size: 180%
+  }
+
+  .kasse {
+    display: block;
+    padding: 5%;
+  }
+
+  .betjeningsvejledningmenu {
+    width: 100%;
+    margin-left: inherit;
+  }
+
+  .temperaturmenu {
+    width: 100%;
+    margin-left: inherit;
+  }
+
+  .ekstraudstyrmenu {
+    width: 100%;
+    margin-left: inherit;
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+
+  .kolonne {
+    display: block;
+    padding: 5%;
+    width: inherit;
+  }
+
+  .kolonne.venstre {
+    justify-content: center;
+    display: flex;
+  }
+
+  .kolonne.højre {
+    justify-content: center;
+
+  }
+
+  .overskrift4 {
+    justify-content: center;
+    display: flex;
+  }
+
+  .kontaktoglinks {
+    display: b
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+  .overskrift2 {
+    font-size: 140%;
+  }
+
+  .overskrift1 {
+    font-size: 140%
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .overskrift2 {
+    font-size: 120%;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .overskrift2 {
+    font-size: 90%;
+  }
+
+  .overskrift1 {
+    font-size: 110%
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .overskrift3 {
+    font-size: 30%;
+  }
